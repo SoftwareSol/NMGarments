@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Foods" assembly="Foods" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="City" table="City">
+    <composite-id>
+      <key-property name="CityID" column="CityID" />
+    </composite-id>
+    <property name="City_" column="City_" />
+  </class>
+</hibernate-mapping>
+

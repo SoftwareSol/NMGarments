@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Foods" assembly="Foods" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Products" table="Products">
+    <composite-id>
+      <key-property name="ProductID" column="ProductID" />
+    </composite-id>
+	<property name="ProductTypeID" column="ProductTypeID" />
+    <property name="ProductName" column="ProductName" />
+    <property name="PckSize" column="PckSize" />    
+    <property name="Cost" column="Cost" />
+    <property name="ProductDiscriptions" column="ProductDiscriptions" />
+    <property name="Supplier_CUstomer" column="Supplier_CUstomer" />
+    <property name="Unit" column="Unit" />
+    <property name="ProductType" column="ProductType" />
+    <property name="CreatedBy" column="CreatedBy" />
+    <property name="CreatedAt" column="CreatedAt" />
+    <property name="Pro_Code" column="Pro_Code" />
+  </class>
+</hibernate-mapping>
+

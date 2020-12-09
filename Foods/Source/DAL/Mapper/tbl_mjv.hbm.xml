@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Foods" assembly="Foods" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="tbl_mjv" table="tbl_mjv">
+    <composite-id>
+      <key-property name="mjv_id" column="mjv_id" />
+    </composite-id>
+	<property name="mjv_sono" column="mjv_sono" />
+	<property name="mjv_dat" column="mjv_dat" />
+    <property name="ProductTypeID" column="ProductTypeID" />
+    <property name="SubHeadCategoriesID" column="SubHeadCategoriesID" />
+    <property name="mjv_Narr" column="mjv_Narr" />
+    <property name="mjv_debtamt" column="mjv_debtamt" />
+    <property name="mjv_crdtamt" column="mjv_crdtamt" />
+    <property name="mjv_ttl" column="mjv_ttl" />
+    <property name="Bank_ID" column="Bank_ID" />
+    <property name="mjv_chqno" column="mjv_chqno" />
+    <property name="mjv_chqdat" column="mjv_chqdat" />
+    <property name="mjv_taxper" column="mjv_taxper" />
+    <property name="mjv_taxamt" column="mjv_taxamt" />
+    <property name="employeeID" column="employeeID" />
+	<property name="CreatedBy" column="CreatedBy" />
+	<property name="CreatedAt" column="CreatedAt" />
+	<property name="ISActive" column="ISActive" />
+	<property name="mjv_grdttl" column="mjv_grdttl"/>
+	<property name="mjv_Vchtyp" column="mjv_Vchtyp"/>
+	<property name="ven_id" column="ven_id" />
+  </class>
+</hibernate-mapping>
+

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Foods" assembly="Foods" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="stockIn" table="stockIn">
+    <composite-id>
+      <key-property name="StockInID" column="StockInID" />
+    </composite-id>
+    <property name="Itm_nam" column="Itm_nam" />
+    <property name="StockQty" column="StockQty" />
+    <property name="Units" column="Units" />
+    <property name="weight" column="weight" />
+    <property name="Date" column="Date" />
+    <property name="unitprice" column="unitprice" />
+    <property name="amount" column="amount" />
+    <property name="created_by" column="created_by" />
+    <property name="create_at" column="create_at" />
+  </class>
+</hibernate-mapping>
+

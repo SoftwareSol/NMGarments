@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Foods" assembly="Foods" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Customers_" table="Customers_">
+    <composite-id>
+      <key-property name="CustomerID" column="CustomerID" />
+    </composite-id>
+    <property name="CustomerName" column="CustomerName" />
+    <property name="GST" column="GST" />
+    <property name="category" column="category" />
+    <property name="NTN" column="NTN" />
+    <property name="customertype_" column="customertype_" />
+    <property name="Area" column="Area" />
+    <property name="RefNum" column="RefNum" />
+    <property name="District" column="District" />
+    <property name="PhoneNo" column="PhoneNo" />
+    <property name="Email" column="Email" />
+    <property name="CellNo1" column="CellNo1" />
+    <property name="PostalCode" column="PostalCode" />
+    <property name="CellNo2" column="CellNo2" />
+    <property name="PostalOfficeContact" column="PostalOfficeContact" />
+    <property name="CellNo3" column="CellNo3" />
+    <property name="NIC" column="NIC" />
+    <property name="CellNo4" column="CellNo4" />
+    <property name="city_" column="city_" />
+    <property name="Address" column="Address" />
+    <property name="CreatedBy" column="CreatedBy" />
+    <property name="CreatedDate" column="CreatedDate" />
+    <property name="IsActive" column="IsActive" />
+    <property name="Cus_Code" column="Cus_Code" />
+  </class>
+</hibernate-mapping>

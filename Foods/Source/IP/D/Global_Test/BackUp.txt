@@ -1,0 +1,77 @@
+﻿#### OLD MENU STARTS HERE ####
+							<%--<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet">Setups</span></a>
+							<ul>
+								<%--<li><asp:LinkButton ID="LinkButton5" CssClass="submenu" PostBackUrl="~/Source/IP/ChartofAccount.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Chart of Account </span></asp:LinkButton></li>--%>
+                                <%--<li><asp:LinkButton ID="LinkButton4" CssClass="submenu" PostBackUrl="~/Source/IP/Supplier_.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Supplier </span></asp:LinkButton></li>
+                                <li><asp:LinkButton ID="LinkButton1" CssClass="submenu" PostBackUrl="~/Source/IP/Customers.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Customers </span></asp:LinkButton></li>
+                                <li><asp:LinkButton ID="LinkButton3" CssClass="submenu" PostBackUrl="~/Source/IP/frm_Emp.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Employees </span></asp:LinkButton></li>
+                                <li><asp:LinkButton ID="LinkButton6" CssClass="submenu" PostBackUrl="~/Source/IP/frm_Products.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Products </span></asp:LinkButton></li>                               
+                                <li><asp:LinkButton ID="LinkButton5" CssClass="submenu" PostBackUrl="~/Source/IP/Category_.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Product Category </span></asp:LinkButton></li>                               
+                                <li><asp:LinkButton ID="LinkButton7" CssClass="submenu" PostBackUrl="~/Source/IP/frm_comp.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Company </span></asp:LinkButton></li>                               --%>
+                                <%--<li><asp:LinkButton ID="LinkButton8" CssClass="submenu" PostBackUrl="~/Source/IP/test.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Test </span></asp:LinkButton></li>                               --%>
+
+                                
+
+                                <%--<li><asp:LinkButton ID="LinkButton2" CssClass="submenu" PostBackUrl="~/Source/IP/OutStand.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Out stand </span></asp:LinkButton></li>                               
+                                <li><asp:LinkButton ID="LinkButton2" CssClass="submenu" PostBackUrl="~/Source/IP/test.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Bank SetUp </span></asp:LinkButton></li>                               
+								<li><a class="submenu" href="#"><i class="icon-file-alt"></i><span class="hidden-tablet"> Check Book </span></a></li>
+							</ul>--%>
+						</li>
+						<li>
+							<%--<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> Inventory </span></a>
+							<ul>
+								<li><asp:LinkButton ID="LinkButton82" CssClass="submenu" runat="server" PostBackUrl="~/Source/IP/ItmPricing.aspx"><i class="icon-file-alt"></i><span class="hidden-tablet"> Item Pricing </span></asp:LinkButton></li>
+								<li><asp:LinkButton ID="lnkbtnstckIn" CssClass="submenu" runat="server" PostBackUrl="~/Source/IP/StockIn_.aspx"><i class="icon-file-alt"></i><span class="hidden-tablet"> Stock In </span></asp:LinkButton></li>
+								<li><asp:LinkButton ID="lnkbtnstckOt" CssClass="submenu" runat="server" PostBackUrl="~/Source/IP/stockout_.aspx"><i class="icon-file-alt"></i><span class="hidden-tablet"> Stock Out </span></asp:LinkButton></li>
+							</ul>	--%>
+						</li>
+                        <li><%--<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> Purchase </span></a>
+                            <ul>
+                                <li><asp:LinkButton ID="LinkBtnReqQuotations" CssClass="submenu" PostBackUrl="~/Source/IP/MProQuot.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Request Quotations </span></asp:LinkButton></li>
+                                 <li><asp:LinkButton ID="LinkBtnQuotApprov" CssClass="submenu" PostBackUrl="~/Source/IP/QuotationApproved.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Quotations Approved </span></asp:LinkButton></li>
+  								<li><asp:LinkButton ID="LinkBtnReq" CssClass="submenu" PostBackUrl="~/Source/IP/MReq.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Requisition </span></asp:LinkButton></li>
+  								<li><asp:LinkButton ID="LinkBtnReqApp" CssClass="submenu" PostBackUrl="#" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Requisition Approved </span></asp:LinkButton></li>
+                                 <li><asp:LinkButton ID="LinkBtnPurchaseOrder" CssClass="submenu" PostBackUrl="~/Source/IP/PurchaseOrder.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Purchase Order </span></asp:LinkButton></li>
+								<li><asp:LinkButton ID="LinkButton7" CssClass="submenu" PostBackUrl="~/Source/IP/AlPur_Inv.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Recieving Note </span></asp:LinkButton></li>
+								<li><asp:LinkButton ID="LnkRecNot" CssClass="submenu" PostBackUrl="~/Source/IP/frm_Purchase.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Purchase Invoice </span></asp:LinkButton></li>
+								<%--<li><asp:LinkButton ID="LinkButton2" CssClass="submenu" PostBackUrl="~/Source/IP/frm_SPurchase.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> S Purchase Invoice </span></asp:LinkButton></li>--%>
+                                 <%--<li><asp:LinkButton ID="LnkBtndn" CssClass="" PostBackUrl="#" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Debit Note </span></asp:LinkButton></li>							
+                             </ul>--%>
+                         </li>
+                         <li><%--<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> Sales </span></a>                             --%>
+                             <%--<ul>
+  								<li><a class="submenu" href="#"><i class="icon-file-alt"></i><span class="hidden-tablet"> Sales Order </span></a></li>
+								<li><asp:LinkButton ID="LnkBtnSal" CssClass="submenu" PostBackUrl="~/Source/IP/frm_Sal.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Sales Invoice </span></asp:LinkButton></li>
+								<li><asp:LinkButton ID="LnkBtnDSR" CssClass="submenu" PostBackUrl="~/Source/IP/frm_DSR_.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> DSR </span></asp:LinkButton></li>
+								<li><asp:LinkButton ID="LinkButton2" CssClass="submenu" PostBackUrl="~/Source/IP/frm_VDsr.aspx" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Verify DSR </span></asp:LinkButton></li>
+
+								<%--<li><a class="submenu" href="#"><i class="icon-file-alt"></i><span class="hidden-tablet"> Sales Receipt </span></a></li>							
+                             </ul> --%>                        
+                         </li>
+                         <%--<li><a class="dropmenu" href="#"><i class="icon-file-alt"></i><span class="hidden-tablet"> Voucher </span></a>
+                             <ul>
+  								<li><a class="submenu" href="#"><i class="icon-file-alt"></i><span class="hidden-tablet"> Journal Voucher </span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-file-alt"></i><span class="hidden-tablet"> Cash Payments </span></a></li>
+								<li><a class="submenu" href="#"><i class="icon-file-alt"></i><span class="hidden-tablet"> Cash Recieved </span></a></li>							
+                             </ul>
+                         </li>   --%>                    
+                         <%--<li><a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> Security </span></a>
+                             <ul>
+								<li><asp:LinkButton CssClass="submenu" PostBackUrl="~/Source/IP/frm_attn.aspx" ID="lnk_attn" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Attendance </span></asp:LinkButton></li>
+								<li><asp:LinkButton CssClass="submenu" PostBackUrl="~/Source/IP/ChangePass.aspx" ID="lnk_chgpass" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Change Password </span></asp:LinkButton></li>                                 
+                             </ul>
+                         </li>--%>
+                        <%-- <li><a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> Marketing </span></a>
+                             <ul>
+								<li><asp:LinkButton CssClass="submenu" PostBackUrl="~/Source/IP/SMS.aspx" ID="LinkButton8" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> SMS </span></asp:LinkButton></li>
+								<li><asp:LinkButton CssClass="submenu" PostBackUrl="~/Source/IP/ChangePass.aspx" ID="LinkButton9" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Change Password </span></asp:LinkButton></li>                                 
+                             </ul>
+                         </li>--%>
+                      <li><%--<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> Reports </span></a>--%>
+                             <%--<ul>
+								<li><asp:LinkButton CssClass="submenu" PostBackUrl="~/Source/OP/ReportViewer.aspx" ID="LBStckIn" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Stock In </span></asp:LinkButton></li>
+                                <li><asp:LinkButton CssClass="submenu" PostBackUrl="~/Source/OP/Rpt_PurchaseForm.aspx" ID="lnkPur" runat="server"><i class="icon-file-alt"></i><span class="hidden-tablet"> Reporting </span></asp:LinkButton></li>
+                             </ul>--%>
+                         </li>
+
+#### OLD MENU END HERE ####

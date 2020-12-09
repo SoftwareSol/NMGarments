@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Foods" assembly="Foods" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Head" table="Head">
+    <composite-id>
+      <key-property name="HeadID" column="HeadID" />
+    </composite-id>
+    <property name="HeadName" column="HeadName" />
+    <property name="HeadGeneratedID" column="HeadGeneratedID" />
+    <property name="CreatedAt" column="CreatedAt" />
+    <property name="CreatedBy" column="CreatedBy" />
+    <property name="HeadKey" column="HeadKey" />
+  </class>
+</hibernate-mapping>
+

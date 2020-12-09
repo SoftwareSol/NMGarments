@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Foods" assembly="Foods" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="CustomerType" table="CustomerType">
+    <composite-id>
+      <key-property name="CustomerTypeID" column="CustomerTypeID" />
+    </composite-id>
+    <property name="CustomerType_" column="CustomerType_" />
+  </class>
+</hibernate-mapping>
+

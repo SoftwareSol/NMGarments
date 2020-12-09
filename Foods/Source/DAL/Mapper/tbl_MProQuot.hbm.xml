@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Foods" assembly="Foods" xmlns="urn:nhibernate-mapping-2.2">
+	<class name="tbl_MProQuot" table="tbl_MProQuot">
+		<composite-id>
+			<key-property name="MProQuot_id" column="MProQuot_id" />
+		</composite-id>
+		<property name="MProQuot_dat" column="MProQuot_dat" />
+		<property name="MProQuot_sono" column="MProQuot_sono" />
+		<property name="MProQuot_rmk" column="MProQuot_rmk" />
+		<property name="CustomerID" column="CustomerID" />
+		<property name="CreatedBy" column="CreatedBy" />
+		<property name="CreatedAt" column="CreatedAt" />
+		<property name="ISActive" column="ISActive" />
+		<property name="MProQuot_app" column="MProQuot_app" />
+		<property name="MProQuot_Rej" column="MProQuot_Rej" />
+	</class>	
+</hibernate-mapping>
+

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Foods" assembly="Foods" xmlns="urn:nhibernate-mapping-2.2">
+	<class name="tbl_DProQuot" table="tbl_DProQuot">
+		<composite-id>
+			<key-property name="DProQuot_id" column="DProQuot_id" />
+		</composite-id>
+		<property name="DProQuot_SNO" column="DProQuot_SNO" />
+		<property name="ProductID" column="ProductID" />
+		<property name="DProQuot_rat" column="DProQuot_rat" />
+		<property name="MProQuot_amt" column="MProQuot_amt" />
+		<property name="MProQuot_tamt" column="MProQuot_tamt" />
+		<property name="MProQuot_narr" column="MProQuot_narr" />
+		<property name="CreatedBy" column="CreatedBy" />
+		<property name="CreatedAt" column="CreatedAt" />
+		<property name="ISActive" column="ISActive" />
+		<property name="MProQuot_id" column="MProQuot_id" />
+	</class>
+</hibernate-mapping>
+

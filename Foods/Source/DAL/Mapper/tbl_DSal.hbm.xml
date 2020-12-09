@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Foods" assembly="Foods" xmlns="urn:nhibernate-mapping-2.2">
+	<class name="tbl_DSal" table="tbl_DSal">
+		<composite-id>
+			<key-property name="DSal_id" column="DSal_id" />
+		</composite-id>
+		<property name="DSal_ItmDes" column="DSal_ItmDes" />
+		<property name="DSal_ItmQty" column="DSal_ItmQty" />
+		<property name="DSal_ItmUnt" column="DSal_ItmUnt" />
+		<property name="DSal_salcst" column="DSal_salcst" />
+		<property name="DSal_netttl" column="DSal_netttl" />
+		<property name="DSal_ttl" column="DSal_ttl" />
+		<property name="MSal_id" column="MSal_id" />
+		<property name="ProductID" column="ProductID" />
+		<property name="ProductTypeID" column="ProductTypeID" />
+		<property name="Dis" column="Dis" />
+		<property name="rat" column="rat" />
+		<property name="Amt" column="Amt" />
+		<property name="GST" column="GST" />
+		<property name="GTtl" column="GTtl" />
+	</class>
+</hibernate-mapping>
+

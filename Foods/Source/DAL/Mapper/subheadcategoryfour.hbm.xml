@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Foods" assembly="Foods" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="subheadcategoryfour" table="subheadcategoryfour">
+    <composite-id>
+      <key-property name="subheadcategoryfourID" column="subheadcategoryfourID" />
+    </composite-id>
+    <property name="subheadcategoryfourName" column="subheadcategoryfourName" />
+    <property name="subheadcategoryfourGeneratedID" column="subheadcategoryfourGeneratedID" />
+    <property name="HeadGeneratedID" column="HeadGeneratedID" />
+    <property name="SubHeadGeneratedID" column="SubHeadGeneratedID" />
+    <property name="SubHeadCategoriesGeneratedID" column="SubHeadCategoriesGeneratedID" />
+    <property name="CreatedAt" column="CreatedAt" />
+    <property name="CreatedBy" column="CreatedBy" />
+    <property name="SubFourKey" column="SubFourKey" />
+  </class>
+</hibernate-mapping>
+

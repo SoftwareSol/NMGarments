@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Foods" assembly="Foods" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="DPurchase" table="DPurchase">
+    <composite-id>
+      <key-property name="DPurID" column="DPurID" />
+    </composite-id>
+    <property name="MPurID" column="MPurID" />
+    <property name="ProductID" column="ProductID" />
+    <property name="ProDes" column="ProDes" />
+    <property name="Qty" column="Qty" />
+    <property name="Total" column="Total" />
+    <property name="SubTotl" column="SubTotl" />
+    <property name="SaleTax" column="SaleTax" />
+    <property name="NetTotal" column="NetTotal" />
+    <property name="Unit" column="Unit" />
+    <property name="Cost" column="Cost" />
+    <property name="ProTyp" column="ProTyp" />
+    <property name="GrossTtal" column="GrossTtal" />    
+    <property name="CreatedBy" column="CreatedBy" />
+    <property name="CreatedAt" column="CreatedAt" />
+  </class>
+</hibernate-mapping>
+

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Foods" assembly="Foods" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="tbl_ItmPricing" table="tbl_ItmPricing">
+    <composite-id>
+      <key-property name="ItmPriID" column="ItmPriID" />
+    </composite-id>
+    <property name="EffDat" column="EffDat" />
+    <property name="ProductID" column="ProductID" />
+    <property name="CustomerID" column="CustomerID" />    
+    <property name="itmpri_Qty" column="itmpri_Qty" />
+    <property name="unt_cost" column="unt_cost" />
+    <property name="cost" column="cost" />
+    <property name="crtd_by" column="crtd_by" />
+    <property name="crtd_at" column="crtd_at" />
+  </class>
+</hibernate-mapping>

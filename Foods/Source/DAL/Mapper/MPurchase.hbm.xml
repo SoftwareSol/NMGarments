@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Foods" assembly="Foods" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="MPurchase" table="MPurchase">
+    <composite-id>
+      <key-property name="MPurID" column="MPurID" />
+    </composite-id>
+    <property name="ven_id" column="ven_id" />
+    <property name="VndrAdd" column="VndrAdd" />
+    <property name="VndrCntct" column="VndrCntct" />
+    <property name="PurNo" column="PurNo" />
+    <property name="MPurDate" column="MPurDate" />
+    <property name="CreatedBy" column="CreatedBy" />
+    <property name="CreatedAt" column="CreatedAt" />
+    <property name="CNIC" column="CNIC" />
+    <property name="NTNNo" column="NTNNo" />
+    <property name="ToBePrntd" column="ToBePrntd" />
+    <property name="ck_Act" column="ck_Act" />
+    <property name="MPurRmk" column="MPurRmk" />    
+    <property name="PayTyp_id" column="PayTyp_id" />
+    <property name="vchtyp_id" column="vchtyp_id" />
+    <property name="csh_amt" column="csh_amt" />
+    <property name="CashBnk_id" column="CashBnk_id" />
+    <property name="chque_No" column="chque_No" />
+    <property name="subheadcategoryfourID" column="subheadcategoryfourID" />  
+    <property name="Out_Standing" column="Out_Standing" />  
+  </class>
+</hibernate-mapping>
+

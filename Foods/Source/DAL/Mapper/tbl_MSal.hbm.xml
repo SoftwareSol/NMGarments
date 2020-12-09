@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Foods" assembly="Foods" xmlns="urn:nhibernate-mapping-2.2">
+	<class name="tbl_MSal" table="tbl_MSal">
+		<composite-id>
+			<key-property name="MSal_id" column="MSal_id" />
+		</composite-id>
+		<property name="MSal_sono" column="MSal_sono" />
+		<property name="MSal_dat" column="MSal_dat" />
+		<property name="MSal_Rmk" column="MSal_Rmk" />
+		<property name="MSalOrdid" column="MSalOrdid" />
+		<property name="CustomerID" column="CustomerID" />
+		<property name="CreatedBy" column="CreatedBy" />
+		<property name="CreatedAt" column="CreatedAt" />
+		<property name="ISActive" column="ISActive" />
+		<property name="iscre" column="iscre"/>
+		<property name="iscash" column="iscash"/>
+		<property name="gatpassno" column="gatpassno"/>
+		<property name="schm" column="schm"/>
+		<property name="bons" column="bons"/>
+		<property name="Outstanding" column="Outstanding"/>
+	</class>
+</hibernate-mapping>
+

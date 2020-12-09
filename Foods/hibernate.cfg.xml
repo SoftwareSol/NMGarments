@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-configuration  xmlns="urn:nhibernate-configuration-2.2">
+  
+  <!-- MySQL Database 0
+  <session-factory>    
+    <property name="connection.provider">NHibernate.Connection.DriverConnectionProvider</property>
+    <property name="connection.driver_class">NHibernate.Driver.MySqlDataDriver</property>
+    <property name="connection.connection_string">Database=ecorp_devicesuite;Data Source=localhost;User Id=root;Password=root</property>
+    <property name="dialect">NHibernate.Dialect.MySQLDialect</property>
+    <property name="hbm2ddl.keywords">none</property>
+    <property name="show_sql">true</property>
+    <property name="query.substitutions">true 1, false 0, yes 'Y', no 'N'</property>
+    <mapping assembly="Synchronizer" />    
+  </session-factory>
+-->
+  <!--MS SQL Server Database-->
+    <session-factory>
+      <property name="connection.provider">NHibernate.Connection.DriverConnectionProvider</property>
+      <property name="connection.driver_class">NHibernate.Driver.SqlClientDriver</property>
+      <!--<property name="connection.connection_string">Data Source=THERE\SQLSERVER2K8;Initial Catalog=eCorpStructure-CMS;User ID=sa;Password=sa</property>-->
+		  <property name="connection.connection_string">Data Source=DESKTOP-99OAU4G;Initial Catalog=nmgarments;User ID=sa;Password=friend</property>
+      
+      <property name="dialect">NHibernate.Dialect.MsSql2012Dialect</property>
+      <property name="hbm2ddl.keywords">none</property>
+      <property name="show_sql">true</property>
+      <property name="query.substitutions">true 1, false 0, yes 'Y', no 'N'</property>
+      <mapping assembly="Foods" />
+    </session-factory> 
+    
+</hibernate-configuration>
+
+
+

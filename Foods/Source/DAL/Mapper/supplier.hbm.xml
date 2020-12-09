@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="Foods" assembly="Foods" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="supplier" table="supplier">
+    <composite-id>
+      <key-property name="supplierId" column="supplierId" />
+    </composite-id>
+    <property name="suppliername" column="suppliername" />
+    <property name="contactperson" column="contactperson" />
+    <property name="BackUpContact" column="BackUpContact" />
+    <property name="City_" column="City_" />
+    <property name="phoneno" column="phoneno" />
+    <property name="mobile" column="mobile" />
+    <property name="faxno" column="faxno" />
+    <property name="postalcode" column="postalcode" />
+    <property name="designation" column="designation" />
+    <property name="AddressOne" column="AddressOne" />
+    <property name="AddressTwo" column="AddressTwo" />
+    <property name="CNIC" column="CNIC" />
+    <property name="Url" column="Url" />
+    <property name="BusinessNature" column="BusinessNature" />
+    <property name="Email" column="Email" />
+    <property name="NTNNTRNo" column="NTNNTRNo" />
+    <property name="CreatedBy" column="CreatedBy" />
+    <property name="CreatedDate" column="CreatedDate" />
+    <property name="IsActive" column="IsActive" />
+    <property name="Sup_Code" column="Sup_Code" />
+  </class>
+</hibernate-mapping>
